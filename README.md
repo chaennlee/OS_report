@@ -14,18 +14,18 @@ sum, sub 등과 같이 하나 이상의 argument를 입력으로 받아 처리�
 
 # report 3
 정렬 알고리즘을 single/multi thread로 각각 구현하고 동작 성능을 비교하는 과제다.
-알고리즘은 인터넷에서 코드를 찾아 활용해도 좋다. "pthread" 라이브러리를 활용하여 멀티스레드 프로그램을 구현하고 "time" 라이브러리를 활용하여 각각 수행 시간을 계산하라.
+알고리즘은 인터넷에서 코드를 찾아 활용해도 좋다. "pthread" 라이브러리를 활용하여 멀티스레드 프로그램을 구현하고 "time" 라이브러리를 활용하여 각각 수행 시간을 계산한다.
 
 # report 4
-"Socket, IPC를 이용한 보드 게임 구현"을 리눅스 상에서 직접 구현하자.
+"Socket, IPC를 이용한 보드 게임 구현"을 리눅스 상에서 직접 구현한다.
 1. Socket API를 사용해야 한다. #include <sys/socket.h> , #include <sys/types.h>을 사용하라.
 2. pthread를 통해 쓰레드를 구현해야 한다.
 3. mutex, semaphore를 사용하여 동기화 문제를 적용, 해결해야 한다.
 4. IPC (message queue등)을 사용해야 한다.
 5. 게임 참가자는 2명 이상이다.
-게임은 가위바위보, 홀짝 맞추기, 눈치게임, 주사위 눈이 높은 Client 찾기 등 자유롭게 선정하라.
+게임은 가위바위보, 홀짝 맞추기, 눈치게임, 주사위 눈이 높은 Client 찾기 등 자유롭게 선정하자.
 
 # report 5
-디바이스 드라이버 만들기.
+디바이스 드라이버를 만든다.
 50byte 길이의 ascii 문자열을 user mode 프로그램에서 kernel mode(device driver)로 전송하면, 대소문자를 바꿔서 user mode 프로그램으로 반환하고, 출력하는 프로그램을 작성한다.
 문자열 입력 및 출력은 user mode 프로그램에서, 변환은 kernel mode 프로그램에서 이루어지도록 작성한다. 
